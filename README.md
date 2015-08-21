@@ -1,6 +1,6 @@
 # Plops! An Atari 2600 game!
 
-To test it out, grab the `.bin` file and drop it in the [online emulator](http://javatari.org/).
+To test it out, grab the `.bin` file and drop it in the [online emulator](http://javatari.org/) - or go marvel at the [majesty of 6502 assembler](https://github.com/mrspeaker/plops/blob/master/plops5.asm)!
 
 <img width="556" alt="screen shot 2015-08-21 at 9 08 20 am" src="https://cloud.githubusercontent.com/assets/129330/9408893/4a23ecd8-47e4-11e5-824c-60a18c0271eb.png">
 
