@@ -9,24 +9,24 @@ SPRITE_HEIGHT	= 13
 SCREEN_HEIGHT	= 192
 
 NUMBER_LINES	= 6
-LINE_HEIGHT		= 7
+LINE_HEIGHT	= 7
 
-XMIN      		= 8
-XMAX     		= 150
+XMIN      	= 8
+XMAX     	= 150
 
 STATE_SPLASH	= %00000001
-STATE_GAME		= %00000010
+STATE_GAME	= %00000010
 STATE_GETREADY 	= %00000100
-STATE_DYING		= %00001000
-STATE_DEAD		= %00010000
+STATE_DYING	= %00001000
+STATE_DEAD	= %00010000
 
-GRAVITY			= 6
+GRAVITY		= 6
 
 SPRITE_PLAYER0	= 0
 SPRITE_PLAYER1	= 1
 SPRITE_MISSILE0	= 2
 SPRITE_MISSILE1	= 3
-SPRITE_BALL		= 4
+SPRITE_BALL	= 4
 
 
 ; color constants
@@ -53,23 +53,23 @@ GREEN_BLUE              = $A0
 GREEN                   = $C0
 
 ; Game status flags
-GS_HasRock				= %00000001
-GS_RockCollision		= %00000010
-GS_ResetRockPlease		= %00000100
-GS_BaddieCollision	    = %00001000
+GS_HasRock		= %00000001
+GS_RockCollision	= %00000010
+GS_ResetRockPlease	= %00000100
+GS_BaddieCollision	= %00001000
 
 ; Enemy status flags
 ES_Direction	        = %00000001
 ES_Active               = %00000010
 
 ; values for ENAMx and ENABL
-DISABLE_BM        		= %00
-ENABLE_BM         		= %10
+DISABLE_BM        	= %00
+ENABLE_BM         	= %10
 
-SCORE_HEIGHT			= 5
-SpriteAnimSpeed 		= 6
+SCORE_HEIGHT		= 5
+SpriteAnimSpeed 	= 6
 
-INIT_LEVEL_TIME			= 40
+INIT_LEVEL_TIME		= 40
 	
 				SEG.U vars
 				ORG $80
@@ -90,13 +90,13 @@ PlayerX			ds 1
 PlayerY			ds 1
 PlayerDir		ds 1
 SpriteAnim		ds 1
-SpriteTablePtr	ds 2
-PlayerJumpTop	ds 2
-PlayerWinding	ds 1
-PlayerJumpSpeed	ds 1
+SpriteTablePtr		ds 2
+PlayerJumpTop		ds 2
+PlayerWinding		ds 1
+PlayerJumpSpeed		ds 1
 
 ScoreHeight		ds 1
-ScoreSpritePtr	ds 12
+ScoreSpritePtr		ds 12
 
 EnemyX			ds NUMBER_LINES*2
 EnemyFC_X		ds NUMBER_LINES
