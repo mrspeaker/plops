@@ -1,4 +1,4 @@
-# Plops! An Atari 2600 game!
+# Plops: an Atari2600 game
 
 Turn on your lava lamp, slap on some Frank Zappa, and [play Plops like it's 1979!](http://mrspeaker.github.io/plops/) Then go marvel at the [majesty of 6502 assembler](https://github.com/mrspeaker/plops/blob/master/plops5.asm)!
 
