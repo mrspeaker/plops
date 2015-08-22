@@ -1,8 +1,8 @@
 # Plops! An Atari 2600 game!
 
-To test it out, grab the `.bin` file and drop it in the [online emulator](http://javatari.org/) - or go marvel at the [majesty of 6502 assembler](https://github.com/mrspeaker/plops/blob/master/plops5.asm)!
+Turn on your lava lamp, slap on some Frank Zappa and [play Plops like it's 1979!](http://mrspeaker.github.io/plops/) Then go marvel at the [majesty of 6502 assembler](https://github.com/mrspeaker/plops/blob/master/plops5.asm)!
 
-<img width="556" alt="screen shot 2015-08-21 at 9 08 20 am" src="https://cloud.githubusercontent.com/assets/129330/9408893/4a23ecd8-47e4-11e5-824c-60a18c0271eb.png">
+<<img width="556" alt="screen shot 2015-08-21 at 9 08 20 am" src="https://cloud.githubusercontent.com/assets/129330/9408893/4a23ecd8-47e4-11e5-824c-60a18c0271eb.png">](http://mrspeaker.github.io/plops/)
 
 Welcome to "Plops". It is set on a Sunday afternoon. On a tranquil lake. You are a well-to-do, mis-behaved rapscallion - out to destroy the fun of others.
 
