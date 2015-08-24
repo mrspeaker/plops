@@ -3,14 +3,48 @@
 
     <head lang="en">
         <meta charset="UTF-8">
-        <title>Javatari.js</title>
+        <title>Plops - by Mr Speaker</title>
+        <style>
+          #container {
+            margin: 30px auto 0;
+            width: 642px;
+            min-height: 594px;
+          }
+          #javatari-screen {
+            margin: 0 auto;
+            box-shadow: 2px 2px 10px rgb(60, 60, 60);
+          }
+          #javatari-console-panel {
+          }
+          #controls {
+            margin: 0 auto;
+            display: flex;
+            background-color: HSL(60, 5%, 16%);
+            box-shadow: 2px 2px 10px rgb(60, 60, 60);
+            align-items: center;
+          }
+          #story a {
+            color: #777;
+          }
+          #story {
+            margin: 0 auto;
+            padding: 10px;
+          }
+        </style>
     </head>
 
-    <body style="background: #e0e0d0">
+    <body style="background: #d0e0d0">
 
-        <div style="margin: 30px auto 0; min-height: 594px;">
-            <div id="javatari-screen" style="margin: 0 auto; box-shadow: 2px 2px 10px rgb(60, 60, 60);"></div>
-            <div id="javatari-console-panel" style="margin: 0 auto; box-shadow: 2px 2px 10px rgb(60, 60, 60);"></div>
+        <div id="container">
+            <div id="javatari-screen"></div>
+            <Br/>
+            <div id="controls">
+              <div id="javatari-console-panel"></div>
+              <div id="story">
+                <a href="https://github.com/mrspeaker/plops">Source on github</a>
+                <br/><br/>
+                <a href="http://www.mrspeaker.net/2009/05/29/plops/">Story on my blog</a>
+              </div>
         </div>
 
         <script src="javatari/javatari.js"></script>
